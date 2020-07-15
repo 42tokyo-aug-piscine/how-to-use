@@ -9,9 +9,26 @@ https://eng-entrance.com/git-install
 https://techacademy.jp/magazine/5304
 
 ■gitのユーザー設定
-この登録で、github上のファイル履歴に誰がの情報が残せるようになります
+この登録で、ファイル履歴に「誰が」の情報が残せるようになります
 
 Win,Mac共に、上記WindowsユーザーのURLの後半部分「初期設定」以下に記載あり
+
+-詳細-
+ターミナル開き、以下のコードを打ち込んでいく
+・ユーザー名登録
+以下の「名前」にユーザー名を入れ、名前を登録
+git config --global user.name “名前”
+
+登録できたか確認したいときは
+git config --global user.name
+
+・メールアドレス登録
+以下の「メールアドレス」にメアドを入れ、登録
+git config --global user.email “メールアドレス"
+
+登録できたか確認したいときは
+git config --global user.email
+
 
 ■githubの使い方
 ・前回(7/12)MT時にひかるさんが紹介してくれたgithub無料チュートリアル
